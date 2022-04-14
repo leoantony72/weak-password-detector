@@ -36,7 +36,7 @@ async function insertdata(pass: any) {
   console.log(adddata);
   return;
 }
-//loadpasswords()  //enable this to insert data
+loadpasswords()  //enable this to insert data
 
 app.post("/checkpassword", async (req: Request, res: Response) => {
   const { password } = req.body;
